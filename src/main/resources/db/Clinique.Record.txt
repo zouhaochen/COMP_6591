@@ -1,0 +1,11 @@
+patient_id, first_name, last_name, phone_num, medical_record, doc_id, date, annotation
+1, 'Mia', 'Divia', '(831) 555-5554', 'covid-19', 1, '2020-06-01', 1
+2, 'Donald', 'Trump', '(831) 255-4445', 'heart disease', 2, '2020-02-11', 1
+3, 'JoJo', 'BiteThem', '(334) 552-1554', 'I dont know', 1, '2020-09-23', 2
+4, 'Jacky', 'Chen', '(231) 515-6654', 'Bone Break', 3, '2020-01-31', 1
+5, 'Jay', 'Brien', '(451) 335-5123', 'covid-19', 1, '2020-05-21', 1
+6, 'rose', 'coco', '(123) 225-5154', 'covid-19', 2, '2020-11-05', 1
+7, 'Venita', 'Wiggins', '(831) 125-5654', 'I dont know', 3, '2020-02-11', 1
+8, 'Laray', 'Copeland', '(567) 525-3334', 'covid-19', 1, '2020-08-25', 1
+9, 'Bernardine', 'Serrano', '(121) 505-5854', 'lung cancer', 2, '2020-06-01', 1
+10, 'Kali', 'Boyer', '(831) 445-5111', 'heart disease', 1, '2020-12-25', 1

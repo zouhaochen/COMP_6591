@@ -1,0 +1,7 @@
+X,Y,annotation
+a,b,0.5
+b,c,0.3
+d,e,0.6
+g,h,0.7
+c,e,0.6
+d,g,0.5

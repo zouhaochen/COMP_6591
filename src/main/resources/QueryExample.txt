@@ -1,0 +1,29 @@
+Query 1 for Bag:
+project<patient_id,first_name>(Clinique.Record)
+
+Query 2 for probability:
+project<X,Z>((project<X,Y>(simpleRelation) join project<Y,Z>(simpleRelation)) union (project<X,Z>(simpleRelation) join project<Y,Z>(simpleRelation)))
+
+Query 3 for certainty
+project<X,Y>(Q)
+
+Query 4 for certainty
+project<X,Z>((project<X,Y>(P) join project<Y,Z>(P)) union (project<X,Z>(P) join project<Y,Z>(P)))
+
+Query 5 for SQL
+project<X,Y>(Q)
+
+Query 6 for SQL
+select<doc_id = 1>(Clinique.Record)
+
+Query 7 for Polynomial:
+project<X,Z>((project<X,Y>(R) join project<Y,Z>(R)) union (project<X,Z>(R) join project<Y,Z>(R)))
+
+Query 8 for Bag:
+project<first_name,medical_record>(Clinique.Record)
+
+Query 9 for SQL
+select<medical_record = 'covid-19'>(Clinique.Record)
+
+Query 10 for SQL
+select<patient_id < 6>(Clinique.Record)
